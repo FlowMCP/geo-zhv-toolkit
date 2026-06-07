@@ -1,0 +1,21 @@
+{
+    "name": "geo-zhv-toolkit",
+    "version": "0.1.0",
+    "description": "Converter for the German central stop registry (zHV / Zentrales Haltestellenverzeichnis, DELFI). Streams the official zHV XML into a sealed read-only SQLite `stops` DB (DHID + coordinates + AGS) consumed by the FlowMCP geo provider (source 'zhv'), plus standalone name/radius queries.",
+    "type": "module",
+    "main": "src/index.mjs",
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --passWithNoTests",
+        "test:coverage:src": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --passWithNoTests"
+    },
+    "keywords": [ "geo", "zhv", "haltestellen", "delfi", "dhid", "sqlite", "flowmcp", "germany", "public-transport" ],
+    "license": "MIT",
+    "engines": { "node": ">=22" },
+    "dependencies": {
+        "better-sqlite3": "^11.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "jest": "^29.7.0"
+    }
+}

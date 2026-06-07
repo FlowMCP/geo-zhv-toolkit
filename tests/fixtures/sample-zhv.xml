@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetResponseType xmlns="http://zhv.xml.wvi/">
+  <Items>
+    <StopPlace>
+      <Name>
+        <Name>Berlin Hauptbahnhof</Name>
+      </Name>
+      <Location>
+        <Latitude>52.525589</Latitude>
+        <Longitude>13.369548</Longitude>
+      </Location>
+      <DHID>de:11000:900003201</DHID>
+      <Authority>
+        <AuthorityId>5</AuthorityId>
+        <Label>VBB</Label>
+      </Authority>
+      <Municipality>
+        <MunicipalityCode>11000000</MunicipalityCode>
+        <Label>Berlin</Label>
+      </Municipality>
+      <AreaQuay>
+        <Items>
+          <Quay>
+            <Name>
+              <Name>Gleis 1</Name>
+            </Name>
+            <Location>
+              <Latitude>52.52561</Latitude>
+              <Longitude>13.36960</Longitude>
+            </Location>
+            <DHID>de:11000:900003201:1:1</DHID>
+            <SEV>nein</SEV>
+          </Quay>
+          <Quay>
+            <Name>
+              <Name>Gleis 2 &amp; 3</Name>
+            </Name>
+            <Location>
+              <Latitude>52.52558</Latitude>
+              <Longitude>13.36948</Longitude>
+            </Location>
+            <DHID>de:11000:900003201:2:2</DHID>
+            <SEV>nein</SEV>
+          </Quay>
+        </Items>
+      </AreaQuay>
+      <THID>ABC123</THID>
+      <SEV>nein</SEV>
+    </StopPlace>
+    <StopPlace>
+      <Name>
+        <Name>Ort ohne Koordinaten</Name>
+      </Name>
+      <DHID>de:09999:0001</DHID>
+      <Authority>
+        <AuthorityId>9</AuthorityId>
+        <Label>TEST</Label>
+      </Authority>
+      <Municipality>
+        <MunicipalityCode>09999000</MunicipalityCode>
+        <Label>Nirgendwo</Label>
+      </Municipality>
+      <SEV>nein</SEV>
+    </StopPlace>
+  </Items>
+</GetResponseType>
